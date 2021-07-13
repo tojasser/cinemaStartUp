@@ -4,6 +4,7 @@
   "description": "to run the project use this command \r node Movies.js",
   "main": "Movies.js",
   "dependencies": {
+    "mongodb": "^3.6.10",
     "puppeteer": "^10.1.0"
   },
   "devDependencies": {},
