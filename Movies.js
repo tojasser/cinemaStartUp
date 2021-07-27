@@ -9,7 +9,7 @@ const uri = "mongodb+srv://Movies:StartUp1122@movie.asfrf.mongodb.net/myFirstDat
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 client.connect(err => {
   const collection = client.db("test").collection("devices");
-  console.log("Done");
+  console.log("Done");ds
   // perform actions on the collection object
 
 
