@@ -32,7 +32,7 @@ async function getMovies(){
                let movie = $(childElm).text()
 
                if(childIdx === 0){
-                   movie  = $(childElm).children().attr('src')
+                   movie  = $(childElm).children().attr('data-src')
                 //    console.log($(childElm).children().attr('src'))
                }
                if(childIdx === 4){
