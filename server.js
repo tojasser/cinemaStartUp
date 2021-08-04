@@ -10,14 +10,6 @@ app.use(cors())
 // This displays message that the server running and listening to specified port
 app.listen(port, () => console.log(`Listening on port ${port}`)); 
 
-// create a GET route
-app.get('/movies', async (req, res) => {
-  let m = await getMovies();
-  res.end(m); 
-}); 
-
-
-
 
 const getMovies = async () => {
 
@@ -30,7 +22,7 @@ const getMovies = async () => {
             method: 'GET',
             url: siteUrl,
         })
-
+        
         const keys = [
             'poster',
             'name',
@@ -83,3 +75,10 @@ const getMovies = async () => {
         return err;
     }
 }
+
+// create a GET Moives route
+app.get('/movies', async (req, res) => {
+    let m = await getMovies();
+    res.end(m); 
+  }); 
+  
