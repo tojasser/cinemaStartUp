@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import { Button, Col, Row, Select } from "antd";
-import { Card, Icon, Image } from 'semantic-ui-react'
-import { Grid } from 'semantic-ui-react'
+import { Button, Col, Row, Select, Divider } from "antd";
+import { Card, Grid, Icon, Image } from "semantic-ui-react";
 import axios from "axios";
 import logo from "./cinema.png";
 
@@ -21,9 +20,9 @@ class Movie extends Component {
 
   render() {
     console.log();
-    const movie = this.state.movie
+    const movie = this.state.movie;
 
-    console.log(movie)
+    console.log(movie);
     return (
       <div className="container">
         <div className="logo">
@@ -42,52 +41,49 @@ class Movie extends Component {
               style={{ width: 200 }}
               placeholder="Another city..."
             />
-            <Button block className="find">Find Movies</Button>
+            <Button block className="find">
+              Find Movies
+            </Button>
           </div>
+          <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
+            {movie.map((mov) => (
+              <Col className="gutter-row" span={6}>
+                <Card>
+                  <Grid relaxed columns={4}>
+                    <Grid.Column>
+                      <Image
+                        src={mov.poster}
+                        style={{
+                          maxWidth: "100%",
+                          borderTopRightRadius: "8px",
+                          borderTopLeftRadius: "8px"
+                        }}
+                      />
+                    </Grid.Column>
+                  </Grid>
+
+                  <Card.Content>
+                    <Card.Header>{mov.name}</Card.Header>
+                    <Card.Meta>{mov.classification}</Card.Meta>
+                    <Card.Description></Card.Description>
+                  </Card.Content>
+                  <Card.Content extra>
+                    <a>
+                      <Icon name="user" />
+
+                      <Button
+                        onClick={this.onClick}
+                        href={"https://ksa.voxcinemas.com/" + mov.showtime}
+                      >
+                        ShowTimes
+                      </Button>
+                    </a>
+                  </Card.Content>
+                </Card>
+              </Col>
+            ))}
+          </Row>
         </div>
-
-
-        <div>
-
-  { movie.map((mov) => 
-
-    <Card>
-       <Grid relaxed columns={4}>
-    <Grid.Column>
-      <Image src= {mov.poster}  
-      style={{
-      width: "260px",
-    }}
-      />
-      </Grid.Column>
-      </Grid>
-      
-        <Card.Content>
-          
-          <Card.Header>{mov.name}</Card.Header>
-            <Card.Meta>{mov.classification}</Card.Meta>
-                <Card.Description>
-
-    </Card.Description>
-        </Card.Content>
-          <Card.Content extra>
-
-      <a>
-        <Icon name='user' />
-        
-       
-        <Button onClick={this.onClick} href={"https://ksa.voxcinemas.com/" + mov.showtime}>ShowTimes</Button>
-
-        
-         
-      </a>
-
-      </Card.Content>
-    </Card>  
- )}
-        
-      </div>
-
       </div>
     );
   }
