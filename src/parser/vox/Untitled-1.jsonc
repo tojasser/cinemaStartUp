@@ -1,0 +1,1861 @@
+[
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00008400.jpg",
+       "name":"El Ens W El Nems",
+       "classification":"R15",
+       "lang":"Arabic",
+       "time":"120 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Al Qasr Mall - Riyadh",
+             "times":[
+                "1:30pm ",
+                "/booking/0041-87359",
+                "2:30pm ",
+                "/booking/0041-87047",
+                "3:15pm ",
+                "/booking/0041-87097",
+                "4:00pm ",
+                "/booking/0041-87360",
+                "5:00pm ",
+                "/booking/0041-87048",
+                "5:45pm ",
+                "/booking/0041-87098",
+                "6:30pm ",
+                "/booking/0041-87361",
+                "7:30pm ",
+                "/booking/0041-87049",
+                "8:15pm ",
+                "/booking/0041-87099",
+                "9:00pm ",
+                "/booking/0041-87362",
+                "10:00pm ",
+                "/booking/0041-87050",
+                "10:45pm ",
+                "/booking/0041-87100",
+                "10:55pm ",
+                "/booking/0041-86841",
+                "11:30pm ",
+                "/booking/0041-87363",
+                "12:30am ",
+                "/booking/0041-87051",
+                "1:10am ",
+                "/booking/0041-87101",
+                "1:25am ",
+                "/booking/0041-86842"
+             ]
+          },
+          {
+             "place":"Atyaf Mall - Riyadh",
+             "times":[
+                "1:45pm ",
+                "/booking/0050-48647",
+                "4:15pm ",
+                "/booking/0050-48648",
+                "5:00pm ",
+                "/booking/0050-48704",
+                "6:45pm ",
+                "/booking/0050-48649",
+                "9:15pm ",
+                "/booking/0050-48650",
+                "10:00pm ",
+                "/booking/0050-48706",
+                "11:45pm ",
+                "/booking/0050-48651",
+                "2:15am ",
+                "/booking/0050-48652",
+                "3:00am ",
+                "/booking/0050-48708"
+             ]
+          },
+          {
+             "place":"Kingdom Centre - Riyadh",
+             "times":[
+                "2:00pm ",
+                "/booking/0043-47063",
+                "3:30pm ",
+                "/booking/0043-47111",
+                "4:25pm ",
+                "/booking/0043-46934",
+                "6:00pm ",
+                "/booking/0043-47112",
+                "7:30pm ",
+                "/booking/0043-47065",
+                "8:30pm ",
+                "/booking/0043-47113",
+                "12:50am ",
+                "/booking/0043-47067",
+                "1:30am ",
+                "/booking/0043-47115"
+             ]
+          },
+          {
+             "place":"Riyadh Front - Riyadh",
+             "times":[
+                "1:30pm ",
+                "/booking/0048-83967",
+                "6:30pm ",
+                "/booking/0048-83969",
+                "2:45pm ",
+                "/booking/0048-84785",
+                "3:15pm ",
+                "/booking/0048-84723",
+                "5:45pm ",
+                "/booking/0048-84724",
+                "7:45pm ",
+                "/booking/0048-84787",
+                "8:15pm ",
+                "/booking/0048-84725",
+                "10:45pm ",
+                "/booking/0048-84726",
+                "12:45am ",
+                "/booking/0048-84789",
+                "1:15am ",
+                "/booking/0048-84727",
+                "3:45am ",
+                "/booking/0048-84728",
+                "2:15pm ",
+                "/booking/0048-84078",
+                "3:00pm ",
+                "/booking/0048-84197",
+                "3:30pm ",
+                "/booking/0048-84260",
+                "5:30pm ",
+                "/booking/0048-84198",
+                "6:00pm ",
+                "/booking/0048-84261",
+                "8:00pm ",
+                "/booking/0048-84199",
+                "8:30pm ",
+                "/booking/0048-84262",
+                "10:30pm ",
+                "/booking/0048-84200",
+                "11:00pm ",
+                "/booking/0048-84263",
+                "1:00am ",
+                "/booking/0048-84201",
+                "1:30am ",
+                "/booking/0048-84264",
+                "3:30am ",
+                "/booking/0048-84202"
+             ]
+          },
+          {
+             "place":"Riyadh Park - Riyadh",
+             "times":[
+                "2:15am ",
+                "/booking/0034-59644",
+                "3:30pm ",
+                "/booking/0034-59847",
+                "5:30pm ",
+                "/booking/0034-59799",
+                "8:00pm ",
+                "/booking/0034-59800",
+                "9:30pm ",
+                "/booking/0034-60159",
+                "11:00pm ",
+                "/booking/0034-59850",
+                "12:00am ",
+                "/booking/0034-60160",
+                "1:00am ",
+                "/booking/0034-59802"
+             ]
+          },
+          {
+             "place":"Sahara Mall - Riyadh",
+             "times":[
+                "3:30pm ",
+                "/booking/0052-40733",
+                "6:00pm ",
+                "/booking/0052-40734",
+                "11:00pm ",
+                "/booking/0052-40736",
+                "1:30am ",
+                "/booking/0052-40737",
+                "2:30pm ",
+                "/booking/0052-40296",
+                "3:30pm ",
+                "/booking/0052-40422",
+                "5:00pm ",
+                "/booking/0052-40297",
+                "6:00pm ",
+                "/booking/0052-40423",
+                "7:30pm ",
+                "/booking/0052-40298",
+                "8:30pm ",
+                "/booking/0052-40424",
+                "10:30pm ",
+                "/booking/0052-40299",
+                "11:00pm ",
+                "/booking/0052-40425",
+                "1:00am ",
+                "/booking/0052-40300",
+                "1:30am ",
+                "/booking/0052-40426",
+                "3:30am ",
+                "/booking/0052-40301"
+             ]
+          },
+          {
+             "place":"The Roof - Riyadh",
+             "times":[
+                "3:00pm ",
+                "/booking/0042-50266",
+                "3:30pm ",
+                "/booking/0042-49883",
+                "5:30pm ",
+                "/booking/0042-50267",
+                "6:00pm ",
+                "/booking/0042-49884",
+                "8:00pm ",
+                "/booking/0042-50268",
+                "8:30pm ",
+                "/booking/0042-49885",
+                "10:30pm ",
+                "/booking/0042-50269",
+                "11:00pm ",
+                "/booking/0042-49886",
+                "1:00am ",
+                "/booking/0042-50270",
+                "1:30am ",
+                "/booking/0042-49887",
+                "3:30am ",
+                "/booking/0042-50271"
+             ]
+          },
+          {
+             "place":"The Spot, Sheikh Jaber - Riyadh",
+             "times":[
+                "2:45pm ",
+                "/booking/0058-6458",
+                "3:45pm ",
+                "/booking/0058-6395",
+                "5:15pm ",
+                "/booking/0058-6459",
+                "7:45pm ",
+                "/booking/0058-6460",
+                "8:45pm ",
+                "/booking/0058-6397",
+                "10:15pm ",
+                "/booking/0058-6461",
+                "12:45am ",
+                "/booking/0058-6462",
+                "1:45am ",
+                "/booking/0058-6399",
+                "3:15am ",
+                "/booking/0058-6463"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00007762.jpg",
+       "name":"Free Guy",
+       "classification":"PG12",
+       "lang":"English",
+       "time":"115 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Al Qasr Mall - Riyadh",
+             "times":[
+                "3:15pm ",
+                "/booking/0041-86890",
+                "5:30pm ",
+                "/booking/0041-86774",
+                "5:45pm ",
+                "/booking/0041-86891",
+                "8:15pm ",
+                "/booking/0041-86892",
+                "10:30pm ",
+                "/booking/0041-86776",
+                "10:45pm ",
+                "/booking/0041-86893",
+                "1:10am ",
+                "/booking/0041-86894"
+             ]
+          },
+          {
+             "place":"Atyaf Mall - Riyadh",
+             "times":[
+                "1:30pm ",
+                "/booking/0050-48826",
+                "2:30pm ",
+                "/booking/0050-48703",
+                "4:00pm ",
+                "/booking/0050-48827",
+                "6:30pm ",
+                "/booking/0050-48828",
+                "7:30pm ",
+                "/booking/0050-48705",
+                "9:00pm ",
+                "/booking/0050-48829",
+                "11:30pm ",
+                "/booking/0050-48830",
+                "2:00am ",
+                "/booking/0050-48831"
+             ]
+          },
+          {
+             "place":"Kingdom Centre - Riyadh",
+             "times":[
+                "1:50pm ",
+                "/booking/0043-46933",
+                "3:25pm ",
+                "/booking/0043-46892",
+                "7:05pm ",
+                "/booking/0043-46935",
+                "1:25am",
+                "/booking/0043-46896"
+             ]
+          },
+          {
+             "place":"Riyadh Front - Riyadh",
+             "times":[
+                "11: 30pm ",
+                "/booking/0048-83971",
+                "6: 30pm ",
+                "/booking/0048-84848",
+                "11: 30pm ",
+                "/booking/0048-84850",
+                "3: 15pm ",
+                "/booking/0048-84322",
+                "4: 45pm ",
+                "/booking/0048-84079",
+                "5: 45pm ",
+                "/booking/0048-84323",
+                "8: 15pm ",
+                "/booking/0048-84324",
+                "9: 45pm ",
+                "/booking/0048-84081",
+                "10: 45pm ",
+                "/booking/0048-84325",
+                "1: 15am ",
+                "/booking/0048-84326",
+                "2: 25am ",
+                "/booking/0048-84022",
+                "2: 45am ",
+                "/booking/0048-84083",
+                "3: 45am ",
+                "/booking/0048-84327"
+             ]
+          },
+          {
+             "place":"Riyadh Park - Riyadh",
+             "times":[
+                "5: 00pm ",
+                "/booking/0034-59579",
+                "10: 00pm ",
+                "/booking/0034-59581",
+                "5: 30pm ",
+                "/booking/0034-60054",
+                "10: 30pm ",
+                "/booking/0034-60056",
+                "3: 00pm ",
+                "/booking/0034-59798",
+                "8: 30pm 3D",
+                "/booking/0034-59849",
+                "10: 30pm ",
+                "/booking/0034-59801",
+                "1: 30am ",
+                "/booking/0034-59851",
+                "1: 45am ",
+                "/booking/0034-59751",
+                "2: 00am ",
+                "/booking/0034-60006"
+             ]
+          },
+          {
+             "place":"Sahara Mall - Riyadh",
+             "times":[
+                "3: 30pm ",
+                "/booking/0052-40768",
+                "8: 25pm ",
+                "/booking/0052-40770",
+                "1: 15am ",
+                "/booking/0052-40772",
+                "2: 45pm ",
+                "/booking/0052-40359",
+                "5: 15pm ",
+                "/booking/0052-40360",
+                "7: 45pm ",
+                "/booking/0052-40361",
+                "10: 15pm ",
+                "/booking/0052-40362",
+                "12: 45am ",
+                "/booking/0052-40363",
+                "3: 15am ",
+                "/booking/0052-40364"
+             ]
+          },
+          {
+             "place":"The Roof - Riyadh",
+             "times":[
+                "11: 15pm ",
+                "/booking/0042-50276",
+                "1: 45am ",
+                "/booking/0042-50082",
+                "3: 15pm ",
+                "/booking/0042-50141",
+                "5: 45pm ",
+                "/booking/0042-50142",
+                "8: 15pm ",
+                "/booking/0042-50143",
+                "10: 45pm ",
+                "/booking/0042-50144",
+                "1: 15am ",
+                "/booking/0042-50145",
+                "3: 45am ",
+                "/booking/0042-50146"
+             ]
+          },
+          {
+             "place":"The Spot, Sheikh Jaber - Riyadh",
+             "times":[
+                "2: 20pm ",
+                "/booking/0058-6199",
+                "4: 50pm ",
+                "/booking/0058-6200",
+                "7: 20pm ",
+                "/booking/0058-6201",
+                "9: 45pm ",
+                "/booking/0058-6202",
+                "12: 10am ",
+                "/booking/0058-6203",
+                "2: 30am ",
+                "/booking/0058-6204"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https: //assets.voxcinemas.com/heroes/B_HO00008552.jpg",
+       "name":"Candyman",
+       "classification":"R18",
+       "lang":"English",
+       "time":"95 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"The Spot, Sheikh Jaber - Riyadh",
+             "times":[
+                "11:30pm ",
+                "/booking/0058-7068"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00008544.jpg",
+       "name":"Mousa",
+       "classification":"PG12",
+       "lang":"Arabic",
+       "time":"105 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Al Qasr Mall - Riyadh",
+             "times":[
+                "11:45pm ",
+                "/booking/0041-87000"
+             ]
+          },
+          {
+             "place":"Atyaf Mall - Riyadh",
+             "times":[
+                "12:30am ",
+                "/booking/0050-48520"
+             ]
+          },
+          {
+             "place":"Kingdom Centre 
+ - Riyadh",
+             "times":[
+                "12: 15am ",
+                "/booking/0043-46937"
+             ]
+          },
+          {
+             "place":"Riyadh Front - Riyadh",
+             "times":[
+                "12: 00am ",
+                "/booking/0048-84518"
+             ]
+          },
+          {
+             "place":"Sahara Mall - Riyadh",
+             "times":[
+                "12: 00am ",
+                "/booking/0052-40175"
+             ]
+          },
+          {
+             "place":"The Roof - Riyadh",
+             "times":[
+                "12: 00am ",
+                "/booking/0042-50006"
+             ]
+          },
+          {
+             "place":"The Spot, Sheikh Jaber - Riyadh",
+             "times":[
+                "11: 15pm ",
+                "/booking/0058-7069"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https: //assets.voxcinemas.com/heroes/B_HO00008463.jpg",
+       "name":"Reminiscence",
+       "classification":"R15",
+       "lang":"English",
+       "time":"120 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Al Qasr Mall - Riyadh",
+             "times":[
+                "2:15pm ",
+                "/booking/0041-86721",
+                "4:45pm ",
+                "/booking/0041-86722",
+                "7:15pm ",
+                "/booking/0041-86723",
+                "9:45pm ",
+                "/booking/0041-86724",
+                "12:15am ",
+                "/booking/0041-86725",
+                "3:00pm ",
+                "/booking/0041-86773",
+                "8:00pm ",
+                "/booking/0041-86775"
+             ]
+          },
+          {
+             "place":"Atyaf Mall - Riyadh",
+             "times":[
+                "2:00pm ",
+                "/booking/0050-48764",
+                "3:30pm ",
+                "/booking/0050-48889",
+                "4:30pm ",
+                "/booking/0050-48765",
+                "6:00pm ",
+                "/booking/0050-48890",
+                "7:00pm ",
+                "/booking/0050-48766",
+                "8:30pm ",
+                "/booking/0050-48891",
+                "9:30pm ",
+                "/booking/0050-48767",
+                "12:00am ",
+                "/booking/0050-48768",
+                "1:30am ",
+                "/booking/0050-48893",
+                "2:30am ",
+                "/booking/0050-48769"
+             ]
+          },
+          {
+             "place":"Kingdom Centre - Riyadh",
+             "times":[
+                "3:30pm ",
+                "/booking/0043-46844",
+                "6:00pm ",
+                "/booking/0043-46845",
+                "7:25pm ",
+                "/booking/0043-46976",
+                "1:15am ",
+                "/booking/0043-46848"
+             ]
+          },
+          {
+             "place":"Riyadh Front - Riyadh",
+             "times":[
+                "4:00pm ",
+                "/booking/0048-83968",
+                "9:00pm ",
+                "/booking/0048-83970",
+                "2:00am ",
+                "/booking/0048-83972",
+                "5:15pm ",
+                "/booking/0048-84786",
+                "10:15pm ",
+                "/booking/0048-84788",
+                "3:15am ",
+                "/booking/0048-84790",
+                "1:45pm ",
+                "/booking/0048-83833",
+                "7:15pm ",
+                "/booking/0048-84080",
+                "12:15am ",
+                "/booking/0048-84082"
+             ]
+          },
+          {
+             "place":"Riyadh Park - Riyadh",
+             "times":[
+                "2:30pm ",
+                "/booking/0034-59578",
+                "7:30pm ",
+                "/booking/0034-59580",
+                "12:30am ",
+                "/booking/0034-59582",
+                "11:45pm ",
+                "/booking/0034-59643",
+                "3:00pm ",
+                "/booking/0034-60053",
+                "8:00pm ",
+                "/booking/0034-60055",
+                "1:00am ",
+                "/booking/0034-60057",
+                "6:00pm ",
+                "/booking/0034-59848"
+             ]
+          },
+          {
+             "place":"Sahara Mall - Riyadh",
+             "times":[
+                "10:50pm ",
+                "/booking/0052-40771",
+                "2:10pm ",
+                "/booking/0052-40234",
+                "4:40pm ",
+                "/booking/0052-40235",
+                "7:10pm ",
+                "/booking/0052-40236",
+                "9:40pm ",
+                "/booking/0052-40237",
+                "2:40am ",
+                "/booking/0052-40239"
+             ]
+          },
+          {
+             "place":"The Roof - Riyadh",
+             "times":[
+                "1:45pm ",
+                "/booking/0042-50202",
+                "4:15pm ",
+                "/booking/0042-50203",
+                "6:45pm ",
+                "/booking/0042-50204",
+                "9:15pm ",
+                "/booking/0042-50205",
+                "10:00pm ",
+                "/booking/0042-49823",
+                "2:15am ",
+                "/booking/0042-50207"
+             ]
+          },
+          {
+             "place":"The Spot, Sheikh Jaber - Riyadh",
+             "times":[
+                "1:15pm ",
+                "/booking/0058-6394",
+                "2:30pm ",
+                "/booking/0058-6521",
+                "5:00pm 
+                 ",
+                "/booking/0058-6522",
+                "6: 15pm ",
+                "/booking/0058-6396",
+                "8: 00pm ",
+                "/booking/0058-6523",
+                "10: 30pm ",
+                "/booking/0058-6524",
+                "1: 00am ",
+                "/booking/0058-6525",
+                "3: 30am ",
+                "/booking/0058-6526"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https: //assets.voxcinemas.com/heroes/B_HO00008575.jpg",
+       "name":"The Night House",
+       "classification":"R15",
+       "lang":"English",
+       "time":"110 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"The Roof - Riyadh",
+             "times":[
+                "1:00am ",
+                "/booking/0042-49950"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00008572.jpg",
+       "name":"The Protégé",
+       "classification":"R18",
+       "lang":"English",
+       "time":"110 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Al Qasr Mall - Riyadh",
+             "times":[
+                "11:10pm ",
+                "/booking/0041-87471"
+             ]
+          },
+          {
+             "place":"Atyaf Mall - Riyadh",
+             "times":[
+                "12:45am ",
+                "/booking/0050-48948"
+             ]
+          },
+          {
+             "place":"Riyadh Front - Riyadh",
+             "times":[
+                "12:00am ",
+                "/booking/0048-84021"
+             ]
+          },
+          {
+             "place":"Sahara Mall - Riyadh",
+             "times":[
+                "11:30pm ",
+                "/booking/0052-40492"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00008547.jpg",
+       "name":"Old",
+       "classification":"R18",
+       "lang":"English",
+       "time":"115 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Al Qasr Mall - Riyadh",
+             "times":[
+                "2:45pm ",
+                "/booking/0041-86942",
+                "5:15pm ",
+                "/booking/0041-86943",
+                "7:45pm ",
+                "/booking/0041-86944",
+                "10:15pm ",
+                "/booking/0041-86945"
+             ]
+          },
+          {
+             "place":"Atyaf Mall - Riyadh",
+             "times":[
+                "3:00pm ",
+                "/booking/0050-48586",
+                "5:30pm ",
+                "/booking/0050-48587",
+                "8:00pm ",
+                "/booking/0050-48588",
+                "10:30pm ",
+                "/booking/0050-48589",
+                "1:00am ",
+                "/booking/0050-48590",
+                "3:30am ",
+                "/booking/0050-48591"
+             ]
+          },
+          {
+             "place":"Kingdom Centre - Riyadh",
+             "times":[
+                "1:15pm ",
+                "/booking/0043-47021",
+                "3:45pm ",
+                "/booking/0043-47022",
+                "8:40pm ",
+                "/booking/0043-47024",
+                "1:40am ",
+                "/booking/0043-47026"
+             ]
+          },
+          {
+             "place":"Riyadh Front - Riyadh",
+             "times":[
+                "4:00pm ",
+                "/booking/0048-84847",
+                "1:15pm ",
+                "/booking/0048-84141",
+                "3:45pm ",
+                "/booking/0048-84142",
+                "6:15pm ",
+                "/booking/0048-84143",
+                "8:45pm ",
+                "/booking/0048-84144",
+                "1:45am ",
+                "/booking/0048-84146"
+             ]
+          },
+          {
+             "place":"Riyadh Park - Riyadh",
+             "times":[
+                "5:15pm ",
+                "/booking/0034-59899",
+                "7:45pm ",
+                "/booking/0034-59900",
+                "10:15pm ",
+                "/booking/0034-59901",
+                "12:45am ",
+                "/booking/0034-59902"
+             ]
+          },
+          {
+             "place":"Sahara Mall - Riyadh",
+             "times":[
+                "5:35pm ",
+                "/booking/0052-40552",
+                "10:45pm ",
+                "/booking/0052-40554"
+             ]
+          },
+          {
+             "place":"The Roof - Riyadh",
+             "times":[
+                "3:00pm ",
+                "/booking/0042-49946",
+                "5:30pm ",
+                "/booking/0042-49947",
+                "8:00pm ",
+                "/booking/0042-49948",
+                "10:30pm ",
+                "/booking/0042-49949",
+                "3:30am ",
+                "/booking/0042-49951"
+             ]
+          },
+          {
+             "place":"The Spot, Sheikh Jaber - Riyadh",
+             "times":[
+                "6:15pm ",
+                "/booking/0058-6333"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00008380.jpg",
+       "name":"Jungle Cruise",
+       "classification":"PG12",
+       "lang":"English",
+       "time":"130 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Al Qasr Mall - Riyadh",
+             "times":[
+                "12:00am ",
+                "/booking/0041-87317",
+                "3:00pm ",
+                "/booking/0041-87196",
+                "5:45pm ",
+                "/booking/0041-87197",
+                "8:30pm ",
+                "/booking/0041-87198"
+             ]
+          },
+          {
+             "place":"Atyaf Mall - Riyadh",
+             "times":[
+                "1:45pm ",
+                "/booking/0050-48944",
+                "4:30pm ",
+                "/booking/0050-48945",
+                "7:15pm ",
+                "/booking/0050-48946",
+                "10:00pm ",
+                "/booking/0050-48947",
+                "3:30am ",
+                "/booking/0050-48949"
+             ]
+          },
+          {
+             "place":"Kingdom Centre - Riyadh",
+             "times":[
+                "4:40pm ",
+                "/booking/0043-47064",
+                "10:05pm ",
+                "/booking/0043-47066"
+             ]
+          },
+          {
+             "place":"Riyadh Front - Riyadh",
+             "times":[
+                "1:45pm ",
+                "/booking/0048-84902",
+                "2:30pm ",
+                "/booking/0048-84377",
+                "8:00pm ",
+                "/booking/0048-84379",
+                "9:45pm ",
+                "/booking/0048-84449",
+                "1:30am ",
+                "/booking/0048-84381",
+                "3:15am ",
+                "/booking/0048-84451"
+             ]
+          },
+          {
+             "place":"Riyadh Park - Riyadh",
+             "times":[
+                "3:45pm ",
+                "/booking/0034-60099",
+                "6:30pm ",
+                "/booking/0034-60100",
+                "9:15pm ",
+                "/booking/0034-60101",
+                "12:15am ",
+                "/booking/0034-60102"
+             ]
+          },
+          {
+             "place":"Sahara Mall - Riyadh",
+             "times":[
+                "3:20pm ",
+                "/booking/0052-40171",
+                "9:35pm ",
+                "/booking/0052-40623",
+                "2:30am ",
+                "/booking/0052-40625"
+             ]
+          },
+          {
+             "place":"The Roof - Riyadh",
+             "times":[
+                "6:30pm ",
+                "/booking/0042-50004",
+                "3:45am ",
+                "/booking/0042-49825"
+             ]
+          },
+          {
+             "place":"The Spot, Sheikh Jaber - Riyadh",
+             "times":[
+                "10:40pm ",
+                "/booking/0058-6139",
+                "1:20am ",
+                "/booking/0058-6140"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00008504.jpg",
+       "name":"Paw Patrol: The Movie",
+       "classification":"G",
+       "lang":"English",
+       "time":"90 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Al Qasr Mall - Riyadh",
+             "times":[
+                "1:45pm ",
+                "/booking/0041-87312",
+                "3:45pm ",
+                "/booking/0041-87313",
+                "5:45pm ",
+                "/booking/0041-87314",
+                "7:45pm ",
+                "/booking/0041-87315",
+                "9:45pm ",
+                "/booking/0041-87316",
+                "3:00pm ",
+                "/booking/0041-86837",
+                "5:00pm ",
+                "/booking/0041-86838",
+                "7:00pm ",
+                "/booking/0041-86839",
+                "8:55pm ",
+                "/booking/0041-88328"
+             ]
+          },
+          {
+             "place":"Atyaf Mall - Riyadh",
+             "times":[
+                "1:30pm ",
+                "/booking/0050-48439",
+                "3:30pm ",
+                "/booking/0050-48440",
+                "5:30pm ",
+                "/booking/0050-48441",
+                "7:45pm ",
+                "/booking/0050-48442",
+                "9:45pm ",
+                "/booking/0050-48443"
+             ]
+          },
+          {
+             "place":"Riyadh Front - Riyadh",
+             "times":[
+                "2:00pm ",
+                "/booking/0048-84659",
+                "4:00pm ",
+                "/booking/0048-84660",
+                "6:00pm ",
+                "/booking/0048-84661",
+                "8:00pm ",
+                "/booking/0048-84662",
+                "10:00pm ",
+                "/booking/0048-84663",
+                "3:00pm ",
+                "/booking/0048-84446",
+                "5:00pm ",
+                "/booking/0048-84447"
+             ]
+          },
+          {
+             "place":"Riyadh Park - Riyadh",
+             "times":[
+                "3:00pm ",
+                "/booking/0034-59704",
+                "5:00pm ",
+                "/booking/0034-59705",
+                "7:00pm ",
+                "/booking/0034-59706",
+                "9:00pm ",
+                "/booking/0034-59707",
+                "1:30pm ",
+                "/booking/0034-60155",
+                "3:30pm ",
+                "/booking/0034-60156",
+                "5:30pm ",
+                "/booking/0034-60157",
+                "7:30pm ",
+                "/booking/0034-60158",
+                "9:45pm ",
+                "/booking/0034-59642"
+             ]
+          },
+          {
+             "place":"Sahara Mall - Riyadh",
+             "times":[
+                "3:20pm ",
+                "/booking/0052-40620",
+                "5:20pm ",
+                "/booking/0052-40621",
+                "7:35pm ",
+                "/booking/0052-40622"
+             ]
+          },
+          {
+             "place":"The Roof - Riyadh",
+             "times":[
+                "3:00pm ",
+                "/booking/0042-50077",
+                "5:00pm ",
+                "/booking/0042-50078",
+                "7:00pm ",
+                "/booking/0042-50079",
+                "9:00pm ",
+                "/booking/0042-50080"
+             ]
+          },
+          {
+             "place":"The Spot, Sheikh Jaber - Riyadh",
+             "times":[
+                "2:40pm ",
+                "/booking/0058-6135",
+                "6:40pm ",
+                "/booking/0058-6137",
+                "8:40pm ",
+                "/booking/0058-6138"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00008517.jpg",
+       "name":"The Suicide Squad",
+       "classification":"R18",
+       "lang":"English",
+       "time":"135 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Al Qasr Mall - Riyadh",
+             "times":[
+                "2:30pm ",
+                "/booking/0041-87409",
+                "5:15pm ",
+                "/booking/0041-87410",
+                "8:00pm ",
+                "/booking/0041-87411",
+                "10:45pm ",
+                "/booking/0041-87412"
+             ]
+          },
+          {
+             "place":"Atyaf Mall - Riyadh",
+             "times":[
+                "3:00pm ",
+                "/booking/0050-49001",
+                "8:00pm ",
+                "/booking/0050-49003",
+                "10:45pm ",
+                "/booking/0050-49004",
+                "1:30am ",
+                "/booking/0050-49005"
+             ]
+          },
+          {
+             "place":"Kingdom Centre - Riyadh",
+             "times":[
+                "1:35pm ",
+                "/booking/0043-46974",
+                "4:25pm ",
+                "/booking/0043-46975",
+                "10:15pm ",
+                "/booking/0043-46977"
+             ]
+          },
+          {
+             "place":"Riyadh Front - Riyadh",
+             "times":[
+                "4:30pm ",
+                "/booking/0048-84903",
+                "10:00pm ",
+                "/booking/0048-84905",
+                "3:30am ",
+                "/booking/0048-84907",
+                "5:15pm ",
+                "/booking/0048-84378",
+                "7:00pm ",
+                "/booking/0048-84448",
+                "12:30am ",
+                "/booking/0048-84450"
+             ]
+          },
+          {
+             "place":"Riyadh Park - Riyadh",
+             "times":[
+                "2:30pm ",
+                "/booking/0034-59946",
+                "5:30pm ",
+                "/booking/0034-59947",
+                "8:15pm ",
+                "/booking/0034-59948",
+                "11:00pm ",
+                "/booking/0034-59949",
+                "1:45am ",
+                "/booking/0034-59950"
+             ]
+          },
+          {
+             "place":"Sahara Mall - Riyadh",
+             "times":[
+                "2:50pm ",
+                "/booking/0052-40551",
+                "8:00pm ",
+                "/booking/0052-40553",
+                "1:20am ",
+                "/booking/0052-40555"
+             ]
+          },
+          {
+             "place":"The Roof - Riyadh",
+             "times":[
+                "3:45pm ",
+                "/booking/0042-50003",
+                "7:15pm ",
+                "/booking/0042-49822",
+                "9:15pm ",
+                "/booking/0042-50005",
+                "12:45am ",
+                "/booking/0042-49824",
+                "2:45am ",
+                "/booking/0042-50007"
+             ]
+          },
+          {
+             "place":"The Spot, Sheikh Jaber - Riyadh",
+             "times":[
+                "3:30pm ",
+                "/booking/0058-6332",
+                "8:40pm ",
+                "/booking/0058-6334",
+                "2:00am ",
+                "/booking/0058-6336"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00008425.jpg",
+       "name":"Mesh Ana",
+       "classification":"R12",
+       "lang":"Arabic",
+       "time":"105 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Al Qasr Mall - Riyadh",
+             "times":[
+                "2:15pm ",
+                "/booking/0041-87150",
+                "7:00pm ",
+                "/booking/0041-87152"
+             ]
+          },
+          {
+             "place":"Riyadh Front - Riyadh",
+             "times":[
+                "2:00pm ",
+                "/booking/0048-83903",
+                "6:15pm ",
+                "/booking/0048-83905",
+                "10:30pm ",
+                "/booking/0048-83907",
+                "2:50am ",
+                "/booking/0048-83909"
+             ]
+          },
+          {
+             "place":"Riyadh Park - Riyadh",
+             "times":[
+                "11:00pm ",
+                "/booking/0034-59708"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00008528.jpg",
+       "name":"Escape Room: No Way Out",
+       "classification":"R12",
+       "lang":"English",
+       "time":"90 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Al Qasr Mall - Riyadh",
+             "times":[
+                "2:45pm ",
+                "/booking/0041-87467",
+                "7:00pm ",
+                "/booking/0041-87469"
+             ]
+          },
+          {
+             "place":"Kingdom Centre - Riyadh",
+             "times":[
+                "5:15pm ",
+                "/booking/0043-47166"
+             ]
+          },
+          {
+             "place":"Riyadh Front - Riyadh",
+             "times":[
+                "4:15pm ",
+                "/booking/0048-83904",
+                "8:30pm ",
+                "/booking/0048-83906"
+             ]
+          },
+          {
+             "place":"Riyadh Park - Riyadh",
+             "times":[
+                "3:00pm ",
+                "/booking/0034-60001",
+                "9:45pm ",
+                "/booking/0034-60004",
+                "12:00am ",
+                "/booking/0034-60005"
+             ]
+          },
+          {
+             "place":"Sahara Mall - Riyadh",
+             "times":[
+                "8:00pm ",
+                "/booking/0052-40173",
+                "2:15am ",
+                "/booking/0052-40176"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00008386.jpg",
+       "name":"Space Jam: A New Legacy",
+       "classification":"PG",
+       "lang":"English",
+       "time":"115 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Atyaf Mall - Riyadh",
+             "times":[
+                "5:00pm ",
+                "/booking/0050-48365"
+             ]
+          },
+          {
+             "place":"Riyadh Park - Riyadh",
+             "times":[
+                "2:45pm ",
+                "/booking/0034-59898"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00008560.jpg",
+       "name":"Fate Grand Order 2",
+       "classification":"R12",
+       "lang":"Japanese",
+       "time":"100 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Al Qasr Mall - Riyadh",
+             "times":[
+                "9:15pm ",
+                "/booking/0041-87258",
+                "11:30pm ",
+                "/booking/0041-87259",
+                "3:15pm ",
+                "/booking/0041-86996",
+                "5:30pm ",
+                "/booking/0041-86997"
+             ]
+          },
+          {
+             "place":"Atyaf Mall - Riyadh",
+             "times":[
+                "9:30pm ",
+                "/booking/0050-48367",
+                "11:45pm ",
+                "/booking/0050-48368",
+                "2:00am ",
+                "/booking/0050-48369",
+                "1:45pm ",
+                "/booking/0050-48515",
+                "4:00pm ",
+                "/booking/0050-48516",
+                "6:15pm ",
+                "/booking/0050-48517"
+             ]
+          },
+          {
+             "place":"Riyadh Front - Riyadh",
+             "times":[
+                "5:15pm ",
+                "/booking/0048-84515"
+             ]
+          },
+          {
+             "place":"Riyadh Park - Riyadh",
+             "times":[
+                "5:15pm ",
+                "/booking/0034-60002",
+                "7:30pm ",
+                "/booking/0034-60003"
+             ]
+          },
+          {
+             "place":"Sahara Mall - Riyadh",
+             "times":[
+                "4:10pm ",
+                "/booking/0052-40489"
+             ]
+          },
+          {
+             "place":"The Spot, Sheikh Jaber - Riyadh",
+             "times":[
+                "2:10pm ",
+                "/booking/0058-6268",
+                "9:15pm ",
+                "/booking/0058-6271"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00008503.jpg",
+       "name":"Respect",
+       "classification":"R12",
+       "lang":"English",
+       "time":"145 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Riyadh Front - Riyadh",
+             "times":[
+                "3:00pm ",
+                "/booking/0048-84018",
+                "6:00pm ",
+                "/booking/0048-84019",
+                "9:00pm ",
+                "/booking/0048-84020"
+             ]
+          },
+          {
+             "place":"Riyadh Park - Riyadh",
+             "times":[
+                "1:45pm ",
+                "/booking/0034-59747",
+                "4:45pm ",
+                "/booking/0034-59748",
+                "7:45pm ",
+                "/booking/0034-59749",
+                "10:45pm ",
+                "/booking/0034-59750"
+             ]
+          },
+          {
+             "place":"Sahara Mall - Riyadh",
+             "times":[
+                "6:20pm ",
+                "/booking/0052-40490"
+             ]
+          },
+          {
+             "place":"The Spot, Sheikh Jaber - Riyadh",
+             "times":[
+                "4:20pm ",
+                "/booking/0058-6269"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00008498.jpg",
+       "name":"Al-Baa'd La Yazhab L Al-Ma'zoun Maratayen",
+       "classification":"R18",
+       "lang":"Arabic",
+       "time":"100 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Riyadh Front - Riyadh",
+             "times":[
+                "9:45pm ",
+                "/booking/0048-84517",
+                "2:15am ",
+                "/booking/0048-84519"
+             ]
+          },
+          {
+             "place":"Riyadh Park - Riyadh",
+             "times":[
+                "1:15am ",
+                "/booking/0034-59709"
+             ]
+          },
+          {
+             "place":"Sahara Mall - Riyadh",
+             "times":[
+                "2:00pm ",
+                "/booking/0052-40488",
+                "9:15pm ",
+                "/booking/0052-40491"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00008571.jpg",
+       "name":"Meander",
+       "classification":"R15",
+       "lang":"English",
+       "time":"90 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Al Qasr Mall - Riyadh",
+             "times":[
+                "7:45pm ",
+                "/booking/0041-86998",
+                "9:45pm ",
+                "/booking/0041-86999"
+             ]
+          },
+          {
+             "place":"Atyaf Mall - Riyadh",
+             "times":[
+                "8:30pm ",
+                "/booking/0050-48518",
+                "10:30pm ",
+                "/booking/0050-48519"
+             ]
+          },
+          {
+             "place":"Riyadh Front - Riyadh",
+             "times":[
+                "4:30pm ",
+                "/booking/0048-83834",
+                "6:45pm ",
+                "/booking/0048-83835",
+                "9:00pm ",
+                "/booking/0048-83836",
+                "11:10pm ",
+                "/booking/0048-83837",
+                "1:20am ",
+                "/booking/0048-83838",
+                "3:20am ",
+                "/booking/0048-83839"
+             ]
+          },
+          {
+             "place":"The Spot, Sheikh Jaber - Riyadh",
+             "times":[
+                "7:15pm ",
+                "/booking/0058-6270",
+                "2:40am ",
+                "/booking/0058-6273"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00008551.jpg",
+       "name":"Rogue Hostage",
+       "classification":"R15",
+       "lang":"English",
+       "time":"95 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Al Qasr Mall - Riyadh",
+             "times":[
+                "4:45pm ",
+                "/booking/0041-87151",
+                "9:30pm ",
+                "/booking/0041-87153"
+             ]
+          },
+          {
+             "place":"Atyaf Mall - Riyadh",
+             "times":[
+                "12:00am ",
+                "/booking/0050-48444",
+                "5:45pm ",
+                "/booking/0050-49002"
+             ]
+          },
+          {
+             "place":"Riyadh Front - Riyadh",
+             "times":[
+                "1:30am ",
+                "/booking/0048-84595"
+             ]
+          },
+          {
+             "place":"Sahara Mall - Riyadh",
+             "times":[
+                "8:50pm ",
+                "/booking/0052-40699",
+                "1:30am ",
+                "/booking/0052-40701"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00007859.jpg",
+       "name":"Black Widow",
+       "classification":"PG12",
+       "lang":"English",
+       "time":"135 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Riyadh Front - Riyadh",
+             "times":[
+                "12:15am ",
+                "/booking/0048-84664",
+                "3:00am ",
+                "/booking/0048-84665"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00008388.jpg",
+       "name":"Spirit Untamed",
+       "classification":"G",
+       "lang":"English",
+       "time":"90 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Al Qasr Mall - Riyadh",
+             "times":[
+                "1:15pm ",
+                "/booking/0041-87254",
+                "5:15pm ",
+                "/booking/0041-87256"
+             ]
+          },
+          {
+             "place":"Riyadh Front - Riyadh",
+             "times":[
+                "1:15pm ",
+                "/booking/0048-84589",
+                "3:15pm ",
+                "/booking/0048-84590",
+                "5:15pm ",
+                "/booking/0048-84591",
+                "7:15pm ",
+                "/booking/0048-84592",
+                "9:15pm ",
+                "/booking/0048-84593"
+             ]
+          },
+          {
+             "place":"Riyadh Park - Riyadh",
+             "times":[
+                "1:40pm ",
+                "/booking/0034-59638",
+                "3:35pm ",
+                "/booking/0034-59639",
+                "7:45pm ",
+                "/booking/0034-59641"
+             ]
+          },
+          {
+             "place":"Sahara Mall - Riyadh",
+             "times":[
+                "4:55pm ",
+                "/booking/0052-40697"
+             ]
+          },
+          {
+             "place":"The Roof - Riyadh",
+             "times":[
+                "3:15pm ",
+                "/booking/0042-49820"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00008553.jpg",
+       "name":"The Comeback Trail",
+       "classification":"R18",
+       "lang":"English",
+       "time":"105 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Kingdom Centre - Riyadh",
+             "times":[
+                "2:50pm ",
+                "/booking/0043-47165"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00007664.jpg",
+       "name":"A Quiet Place: Part II",
+       "classification":"R12",
+       "lang":"English",
+       "time":"100 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Al Qasr Mall - Riyadh",
+             "times":[
+                "4:45pm ",
+                "/booking/0041-87468",
+                "9:00pm ",
+                "/booking/0041-87470",
+                "1:30am ",
+                "/booking/0041-87472"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00008441.jpg",
+       "name":"Mama Hamel",
+       "classification":"R18",
+       "lang":"Arabic",
+       "time":"100 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Atyaf Mall - Riyadh",
+             "times":[
+                "2:15am ",
+                "/booking/0050-48445"
+             ]
+          },
+          {
+             "place":"Riyadh Front - Riyadh",
+             "times":[
+                "11:15pm ",
+                "/booking/0048-84594",
+                "3:50am ",
+                "/booking/0048-84596",
+                "3:00pm ",
+                "/booking/0048-84514"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00008550.jpg",
+       "name":"Late Shift",
+       "classification":"R18",
+       "lang":"English",
+       "time":"90 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Sahara Mall - Riyadh",
+             "times":[
+                "6:00pm ",
+                "/booking/0052-40172",
+                "10:00pm ",
+                "/booking/0052-40174"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00008470.jpg",
+       "name":"Spirit Untamed",
+       "classification":"G",
+       "lang":"Arabic",
+       "time":"90 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Atyaf Mall - Riyadh",
+             "times":[
+                "3:00pm ",
+                "/booking/0050-48364",
+                "7:30pm ",
+                "/booking/0050-48366"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00008540.jpg",
+       "name":"Anything for Jackson",
+       "classification":"R18",
+       "lang":"English",
+       "time":"100 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Sahara Mall - Riyadh",
+             "times":[
+                "11:15pm ",
+                "/booking/0052-40700",
+                "3:45am ",
+                "/booking/0052-40702"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00008566.jpg",
+       "name":"Turu the Wacky Hen",
+       "classification":"G",
+       "lang":"English",
+       "time":"80 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Al Qasr Mall - Riyadh",
+             "times":[
+                "3:15pm ",
+                "/booking/0041-87255",
+                "7:15pm ",
+                "/booking/0041-87257"
+             ]
+          },
+          {
+             "place":"Riyadh Park - Riyadh",
+             "times":[
+                "5:45pm ",
+                "/booking/0034-59640"
+             ]
+          },
+          {
+             "place":"Sahara Mall - Riyadh",
+             "times":[
+                "3:00pm ",
+                "/booking/0052-40696",
+                "6:55pm ",
+                "/booking/0052-40698"
+             ]
+          },
+          {
+             "place":"The Roof - Riyadh",
+             "times":[
+                "1:15pm ",
+                "/booking/0042-49819",
+                "5:15pm ",
+                "/booking/0042-49821"
+             ]
+          }
+       ]
+    },
+    {
+       "poster":"https://assets.voxcinemas.com/heroes/B_HO00008558.jpg",
+       "name":"Paw Patrol: The Movie",
+       "classification":"G",
+       "lang":"Arabic",
+       "time":"90 min"
+    },
+    {
+       "showTimes":[
+          {
+             "place":"Sahara Mall - Riyadh",
+             "times":[
+                "1:15pm ",
+                "/booking/0052-40619"
+             ]
+          },
+          {
+             "place":"The Spot, Sheikh Jaber - Riyadh",
+             "times":[
+                "4:40pm ",
+                "/booking/0058-6136"
+             ]
+          }
+       ]
+    }
+ ]

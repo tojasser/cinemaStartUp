@@ -2,12 +2,19 @@ import React, { Component } from "react";
 import { Button, Col, Row, Select, Divider } from "antd";
 import { Card, Grid, Icon, Image } from "semantic-ui-react";
 import axios from "axios";
-import logo from "./cinema.png";
+import logo from "./cinema.png"; import { Collapse } from 'antd';
+import { CaretRightOutlined } from '@ant-design/icons';
+
+const { Panel } = Collapse;
+
 
 class Movie extends Component {
   constructor(props) {
     super(props);
-    this.state = { movie: [] };
+    this.state = {
+      movie: [],
+      showtime: []
+    };
   }
 
   componentDidMount() {
@@ -16,13 +23,19 @@ class Movie extends Component {
         movie: response.data,
       });
     });
+    axios.get(`http://localhost:5000/showtime`).then((response) => {
+      this.setState({
+        showtime: response.data,
+      });
+    });
   }
 
   render() {
-    console.log();
+    console.log(this.state.movie);
+    console.log(this.state.showtime);
     const movie = this.state.movie;
+    const showtime = this.state.showtime;
 
-    console.log(movie);
     return (
       <div className="container">
         <div className="logo">
@@ -46,7 +59,7 @@ class Movie extends Component {
             </Button>
           </div>
           <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-            {movie.map((mov) => (
+            {movie.map((mov, index) => (
               <Col className="gutter-row" span={6}>
                 <Card>
                   <Grid relaxed columns={4}>
@@ -70,6 +83,28 @@ class Movie extends Component {
                   <Card.Content extra>
                     <a>
                       <Icon name="user" />
+
+
+
+                      <Collapse
+                        bordered={false}
+                        expandIcon={({ isActive }) => <CaretRightOutlined rotate={isActive ? 90 : 0} />}
+                        className="site-collapse-custom-collapse"
+                      >
+                        <Panel header="Showtimes" key={index} className="site-collapse-custom-panel">
+                          {showtime.map((shows) => (
+                             <div>
+                             <p>{shows.name}</p>
+                            <Button
+                            onClick={this.onClick}
+                            href={"https://ksa.voxcinemas.com/" + mov.showtime}
+                            >
+                          </Button>
+                             </div>
+                          ))}
+                        </Panel>
+                      </Collapse>
+
 
                       <Button
                         onClick={this.onClick}
