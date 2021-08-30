@@ -12,8 +12,7 @@ class Movie extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      movie: [],
-      showtime: []
+      movie: []
     };
   }
 
@@ -23,18 +22,11 @@ class Movie extends Component {
         movie: response.data,
       });
     });
-    axios.get(`http://localhost:5000/showtime`).then((response) => {
-      this.setState({
-        showtime: response.data,
-      });
-    });
   }
 
   render() {
     console.log(this.state.movie);
-    console.log(this.state.showtime);
     const movie = this.state.movie;
-    const showtime = this.state.showtime;
 
     return (
       <div className="container">
@@ -78,7 +70,8 @@ class Movie extends Component {
                   <Card.Content>
                     <Card.Header>{mov.name}</Card.Header>
                     <Card.Meta>{mov.classification}</Card.Meta>
-                    <Card.Description></Card.Description>
+                    <Card.Description>{mov.lang}</Card.Description>
+                    <Card.Description>{mov.time}</Card.Description>
                   </Card.Content>
                   <Card.Content extra>
                     <a>
@@ -86,35 +79,36 @@ class Movie extends Component {
 
 
 
-                      <Collapse
+                      
+                    </a>
+                  </Card.Content>
+                </Card>
+                <Collapse
                         bordered={false}
                         expandIcon={({ isActive }) => <CaretRightOutlined rotate={isActive ? 90 : 0} />}
                         className="site-collapse-custom-collapse"
                       >
                         <Panel header="Showtimes" key={index} className="site-collapse-custom-panel">
-                          {showtime.map((shows) => (
-                             <div>
-                             <p>{shows.name}</p>
-                            <Button
-                            onClick={this.onClick}
-                            href={"https://ksa.voxcinemas.com/" + mov.showtime}
-                            >
-                          </Button>
-                             </div>
+                          <div className="showtime">
+                          {mov.showTimes.map((location) => (
+                              <Col>
+                              <p>{location.place}</p>
+                              {location.times.map((show) => (
+                              <li>
+                                <a href={show.link}>{show.time}</a>
+                                </li>
+                              ))}
+                              {/* 
+                              <Button
+                                onClick={this.onClick}
+                                href={"https://ksa.voxcinemas.com/" + mov.showtime}
+                              >
+                              </Button> */}
+                              </Col>
                           ))}
+                          </div>
                         </Panel>
                       </Collapse>
-
-
-                      <Button
-                        onClick={this.onClick}
-                        href={"https://ksa.voxcinemas.com/" + mov.showtime}
-                      >
-                        ShowTimes
-                      </Button>
-                    </a>
-                  </Card.Content>
-                </Card>
               </Col>
             ))}
           </Row>

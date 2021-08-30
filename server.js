@@ -12,84 +12,75 @@ app.listen(port, () => console.log(`Listening on port ${port}`));
 
 // create a GET Moives route
 app.get('/movies', async (req, res) => {
-            console.log("be")
     let movie = await moviesAndShowtimes();
-    console.log("aft")
-    console.log(movie)
     res.end(movie);
 });
 
-// create a GET showtime route
-app.get('/showtimes', async (req, res) => {
-    let showtime = await moviesAndShowtimes();
-    res.end(showtime);
-});
+
+// const getMovies = async () => {
+
+//     try {
+//         const siteUrl = 'https://ksa.voxcinemas.com/movies/whatson'
+
+//         const {
+//             data
+//         } = await axios({
+//             method: 'GET',
+//             url: siteUrl,
+//         })
+
+//         const keys = [
+//             'poster',
+//             'name',
+//             'classification',
+//             'language',
+//             'showtime',
+//         ]
+
+//         const movieArr = []
+//         const $ = cheerio.load(data)
+//         const elmSelector = 'body > div.container > main > section.now-showing > article'
+//         $(elmSelector).each((parentIndx, parentElm) => {
+//             let keyIndx = 0
+//             const movieObj = {}
+//             //console.log(`movie index ${parentIndx}`)
+//             $(parentElm).children().each((childIdx, childElm) => {
+//                 // console.log(childIdx)
+
+//                 let movie = $(childElm).text()
+
+//                 if (childIdx === 0) {
+//                     movie = $(childElm).children().attr('data-src')
+//                     //    console.log($(childElm).children().attr('src'))
+//                 }
+//                 if (childIdx === 4) {
+//                     movie = $(childElm).attr('href')
+//                     //          console.log($(childElm).attr('href'))
+
+//                 }
+
+//                 if (movie) {
+//                     movieObj[keys[keyIndx]] = movie
+//                     //console.log(keyIndx)
+//                     keyIndx++
+//                 }
 
 
-const getMovies = async () => {
+//             })
 
-    try {
-        const siteUrl = 'https://ksa.voxcinemas.com/movies/whatson'
-
-        const {
-            data
-        } = await axios({
-            method: 'GET',
-            url: siteUrl,
-        })
-
-        const keys = [
-            'poster',
-            'name',
-            'classification',
-            'language',
-            'showtime',
-        ]
-
-        const movieArr = []
-        const $ = cheerio.load(data)
-        const elmSelector = 'body > div.container > main > section.now-showing > article'
-        $(elmSelector).each((parentIndx, parentElm) => {
-            let keyIndx = 0
-            const movieObj = {}
-            //console.log(`movie index ${parentIndx}`)
-            $(parentElm).children().each((childIdx, childElm) => {
-                // console.log(childIdx)
-
-                let movie = $(childElm).text()
-
-                if (childIdx === 0) {
-                    movie = $(childElm).children().attr('data-src')
-                    //    console.log($(childElm).children().attr('src'))
-                }
-                if (childIdx === 4) {
-                    movie = $(childElm).attr('href')
-                    //          console.log($(childElm).attr('href'))
-
-                }
-
-                if (movie) {
-                    movieObj[keys[keyIndx]] = movie
-                    //console.log(keyIndx)
-                    keyIndx++
-                }
+//             movieArr.push(movieObj)
 
 
-            })
+//         })
 
-            movieArr.push(movieObj)
+//         console.log(movieArr)
+//         return JSON.stringify(movieArr);
 
-
-        })
-
-        console.log(movieArr)
-        return JSON.stringify(movieArr);
-
-    } catch (err) {
-        console.log(err)
-        return JSON.stringify(err);
-    }
-}
+//     } catch (err) {
+//         console.log(err)
+//         return JSON.stringify(err);
+//     }
+// }
 
 const moviesAndShowtimes = async ()=> {
     debugger
@@ -112,10 +103,11 @@ const moviesAndShowtimes = async ()=> {
             //console.log($(parentElm).children().attr('href'))
             // console.log($(article).text())
 
-            const movieObj = {name:'', classification:'', lang:'', time:'', poster:'', shows:[]}
+
+            //const movieObj = {}// { poster:'',name:'', classification:'', lang:'', time:'', shows:[]}
+            const movieObj = {}
             $(parentElm).children().each((childIndx, chaildElm) => {
                 //console.log(`child indx ${childIndx}`)
-                const movieObj = {}
                 if (childIndx === 0) { // parsing movie info 
                     const movieInfo = chaildElm
 
@@ -134,26 +126,36 @@ const moviesAndShowtimes = async ()=> {
                     //console.log($('h2').text())
 
                 } else { // here is the beginggg of class:dates (places and showtimes)
+                    movieObj.showTimes = []
                     const shows = chaildElm
                     $(shows).find('div > h3').each((lvl3Indx, lvl3Elm) => {
+
+                        //console.log(`lvl3 indx ${lvl3Indx}`)
                         const place = $(lvl3Elm).text()
+                        //console.log($(lvl3Elm).next().text()+"test11")
+
                         const showTime = {}
                         showTime.place = place
                         showTime.times = []
                         $(lvl3Elm).next().find('li > ol > li > a').each((lvl4Indx, lvl4Elm) => { // parse movie time and showtime link
-                            const times = {}
-                            times.time = $(lvl4Elm).text()
-                            times.link = $(lvl4Elm).attr('href')
-                            showTime.times.push(times)
+                            const timesshowe = {}
+                            timesshowe.time = $(lvl4Elm).text()
+                            timesshowe.link = $(lvl4Elm).attr('href')
+                            showTime.times.push(timesshowe)
                         })
                         movieObj.showTimes.push(showTime)
                     })
+
                 }
+                
+                //console.log($(chaildElm).children().text())
+                // body > div.container > main > section.showtimes > article:nth-child(3) > div
+                
             })
-            movieArr.push(movieObj)
+            movieArr.push((movieObj))
 
         })
-        return JSON.parse(JSON.stringify(movieArr))
+        return (JSON.stringify(movieArr))
     } catch (err) {
         JSON.stringify(err)
     }

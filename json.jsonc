@@ -1,0 +1,241 @@
+[
+  {
+    name: 'El Ens W El Nems',
+    classification: 'R15',
+    lang: 'Arabic',
+    time: '120 min',
+    poster: 'https://assets.voxcinemas.com/heroes/B_HO00008400.jpg',
+    shows: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ]
+  },
+  {
+    name: 'Free Guy',
+    classification: 'PG12',
+    lang: 'English',
+    time: '115 min',
+    poster: 'https://assets.voxcinemas.com/heroes/B_HO00007762.jpg',
+    shows: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ]
+  },
+  {
+    name: 'Candyman',
+    classification: 'R18',
+    lang: 'English',
+    time: '95 min',
+    poster: 'https://assets.voxcinemas.com/heroes/B_HO00008552.jpg',
+    shows: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ]
+  },
+  {
+    name: 'Mousa',
+    classification: 'PG12',
+    lang: 'Arabic',
+    time: '105 min',
+    poster: 'https://assets.voxcinemas.com/heroes/B_HO00008544.jpg',
+    shows: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ]
+  },
+  {
+    name: 'Reminiscence',
+    classification: 'R15',
+    lang: 'English',
+    time: '120 min',
+    poster: 'https://assets.voxcinemas.com/heroes/B_HO00008463.jpg',
+    shows: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ]
+  },
+  {
+    name: 'The Night House',
+    classification: 'R15',
+    lang: 'English',
+    time: '110 min',
+    poster: 'https://assets.voxcinemas.com/heroes/B_HO00008575.jpg',
+    shows: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ]
+  },
+  {
+    name: 'The Protégé',
+    classification: 'R18',
+    lang: 'English',
+    time: '110 min',
+    poster: 'https://assets.voxcinemas.com/heroes/B_HO00008572.jpg',
+    shows: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ]
+  },
+  {
+    name: 'Old',
+    classification: 'R18',
+    lang: 'English',
+    time: '115 min',
+    poster: 'https://assets.voxcinemas.com/heroes/B_HO00008547.jpg',
+    shows: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ]
+  },
+  {
+    name: 'Jungle Cruise',
+    classification: 'PG12',
+    lang: 'English',
+    time: '130 min',
+    poster: 'https://assets.voxcinemas.com/heroes/B_HO00008380.jpg',
+    shows: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ]
+  },
+  {
+    name: 'Paw Patrol: The Movie',
+    classification: 'G',
+    lang: 'English',
+    time: '90 min',
+    poster: 'https://assets.voxcinemas.com/heroes/B_HO00008504.jpg',
+    shows: [ [Object], [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    name: 'The Suicide Squad',
+    classification: 'R18',
+    lang: 'English',
+    time: '135 min',
+    poster: 'https://assets.voxcinemas.com/heroes/B_HO00008517.jpg',
+    shows: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ]
+  },
+  {
+    name: 'Mesh Ana',
+    classification: 'R12',
+    lang: 'Arabic',
+    time: '105 min',
+    poster: 'https://assets.voxcinemas.com/heroes/B_HO00008425.jpg',
+    shows: [ [Object] ]
+  },
+  {
+    name: 'Escape Room: No Way Out',
+    classification: 'R12',
+    lang: 'English',
+    time: '90 min',
+    poster: 'https://assets.voxcinemas.com/heroes/B_HO00008528.jpg',
+    shows: [ [Object], [Object], [Object], [Object] ]
+  },
+  {
+    name: 'Space Jam: A New Legacy',
+    classification: 'PG',
+    lang: 'English',
+    time: '115 min',
+    poster: 'https://assets.voxcinemas.com/heroes/B_HO00008386.jpg',
+    shows: [ [Object] ]
+  },
+  {
+    name: 'Respect',
+    classification: 'R12',
+    lang: 'English',
+    time: '145 min',
+    poster: 'https://assets.voxcinemas.com/heroes/B_HO00008503.jpg',
+    shows: [ [Object] ]
+  },
+  {
+    name: "Al-Baa'd La Yazhab L Al-Ma'zoun Maratayen",
+    classification: 'R18',
+    lang: 'Arabic',
+    time: '100 min',
+    poster: 'https://assets.voxcinemas.com/heroes/B_HO00008498.jpg',
+    shows: [ [Object] ]
+  },
+  {
+    name: 'Spirit Untamed',
+    classification: 'G',
+    lang: 'English',
+    time: '90 min',
+    poster: 'https://assets.voxcinemas.com/heroes/B_HO00008388.jpg',
+    shows: [ [Object], [Object], [Object] ]
+  },
+  {
+    name: 'The Comeback Trail',
+    classification: 'R18',
+    lang: 'English',
+    time: '105 min',
+    poster: 'https://assets.voxcinemas.com/heroes/B_HO00008553.jpg',
+    shows: [ [Object] ]
+  },
+  {
+    name: 'A Quiet Place: Part II',
+    classification: 'R12',
+    lang: 'English',
+    time: '100 min',
+    poster: 'https://assets.voxcinemas.com/heroes/B_HO00007664.jpg',
+    shows: [ [Object] ]
+  },
+  {
+    name: 'Mama Hamel',
+    classification: 'R18',
+    lang: 'Arabic',
+    time: '100 min',
+    poster: 'https://assets.voxcinemas.com/heroes/B_HO00008441.jpg',
+    shows: [ [Object] ]
+  },
+  {
+    name: 'Late Shift',
+    classification: 'R18',
+    lang: 'English',
+    time: '90 min',
+    poster: 'https://assets.voxcinemas.com/heroes/B_HO00008550.jpg',
+    shows: [ [Object] ]
+  },
+  {
+    name: 'Spycies',
+    classification: 'PG',
+    lang: 'English',
+    time: '100 min',
+    poster: 'https://assets.voxcinemas.com/heroes/B_HO00008580.jpg',
+    shows: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ]
+  },
+  {
+    name: 'Ted Bundy: American Boogeyman',
+    classification: 'R18',
+    lang: 'English',
+    time: '115 min',
+    poster: 'https://assets.voxcinemas.com/heroes/B_HO00008579.jpg',
+    shows: [ [Object], [Object], [Object], [Object] ]
+  }
+]

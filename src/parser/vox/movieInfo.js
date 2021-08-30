@@ -26,7 +26,8 @@ async function moviesAndShowtimes() {
             // console.log($(article).text())
 
 
-            const movieObj = {name:'', classification:'', lang:'', time:'', poster:'', shows:[]}
+            //const movieObj = {}// { poster:'',name:'', classification:'', lang:'', time:'', shows:[]}
+            const movieObj = {}
             $(parentElm).children().each((childIndx, chaildElm) => {
                 //console.log(`child indx ${childIndx}`)
                 if (childIndx === 0) { // parsing movie info 
@@ -47,7 +48,7 @@ async function moviesAndShowtimes() {
                     //console.log($('h2').text())
 
                 } else { // here is the beginggg of class:dates (places and showtimes)
-                    // movieObj.showTimes = []
+                    movieObj.showTimes = []
                     const shows = chaildElm
                     $(shows).find('div > h3').each((lvl3Indx, lvl3Elm) => {
 
@@ -59,12 +60,12 @@ async function moviesAndShowtimes() {
                         showTime.place = place
                         showTime.times = []
                         $(lvl3Elm).next().find('li > ol > li > a').each((lvl4Indx, lvl4Elm) => { // parse movie time and showtime link
-                            const times = {}
-                            times.time = $(lvl4Elm).text()
-                            times.link = $(lvl4Elm).attr('href')
-                            showTime.times.push(times)
+                            const timesshowe = {}
+                            timesshowe.time = $(lvl4Elm).text()
+                            timesshowe.link = $(lvl4Elm).attr('href')
+                            showTime.times.push(timesshowe)
                         })
-                        movieObj.shows.push(showTime)
+                        movieObj.showTimes.push(showTime)
                     })
 
                 }
@@ -73,12 +74,15 @@ async function moviesAndShowtimes() {
                 // body > div.container > main > section.showtimes > article:nth-child(3) > div
                 
             })
-            movieArr.push(movieObj)
+            movieArr.push((movieObj))
 
         })
         // console.log("--------------------------------------------")
         // console.log(JSON.stringify(movieArr))
-        return (movieArr)
+
+        
+        
+        return JSON.stringify(movieArr)
     } catch (err) {
         console.log(err)
     }
@@ -98,11 +102,10 @@ async function show() {
     console.log("--------------------------------------------")
     console.log("--------------------------------------------")
     console.log("--------------------------------------------")
-
-    
-    var x = JSON.parse(JSON.stringify(moview))
-
-    console.log(x)
+    // moview.map((movie,i)=> (
+    //     console.log(movie.shows[i].place)
+    // ))
+    console.log(moview)
     //console.log(JSON.stringify(moview));
 }
 

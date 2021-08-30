@@ -1,7 +1,7 @@
 const axios = require('axios')
 const cheerio = require('cheerio')
 let movie;
-export default getMovies = async () => {
+var x= getMovies = async () => {
 
         try {
             const siteUrl = 'https://ksa.voxcinemas.com/movies/whatson'
