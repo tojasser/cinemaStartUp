@@ -1,18 +1,20 @@
 import React, { Component } from "react";
-import { Button, Col, Row, Select, Divider } from "antd";
+import { Button, Col, Row, Select, Divider, Modal } from "antd";
 import { Card, Grid, Icon, Image } from "semantic-ui-react";
 import axios from "axios";
-import logo from "./cinema.png"; import { Collapse } from 'antd';
-import { CaretRightOutlined } from '@ant-design/icons';
+import logo from "./cinema.png";
+import vox from "./vox.png";
+import { Collapse } from "antd";
+import { CaretRightOutlined } from "@ant-design/icons";
 
 const { Panel } = Collapse;
-
 
 class Movie extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      movie: []
+      movie: [],
+      isModalVisible: false,
     };
   }
 
@@ -24,10 +26,21 @@ class Movie extends Component {
     });
   }
 
-  render() {
-    console.log(this.state.movie);
-    const movie = this.state.movie;
+  showModal = () => {
+    this.setState({
+      isModalVisible: true,
+    });
+  };
 
+  handleCancel = () => {
+    this.setState({
+      isModalVisible: false,
+    });
+  };
+
+  render() {
+    const movie = this.state.movie;
+    const baseVoxUrl = "https://ksa.voxcinemas.com";
     return (
       <div className="container">
         <div className="logo">
@@ -37,7 +50,7 @@ class Movie extends Component {
         <div className="rapper">
           <div className="select-city">
             <p>Choose City</p>
-            <Button>Riyadh</Button>
+            <Button className="selected">Riyadh</Button>
             <Button>Jeddah</Button>
             <Button>Dammam</Button>
             <Button>Qassim</Button>
@@ -50,6 +63,8 @@ class Movie extends Component {
               Find Movies
             </Button>
           </div>
+        </div>
+        <div className="rapper">
           <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
             {movie.map((mov, index) => (
               <Col className="gutter-row" span={6}>
@@ -61,7 +76,7 @@ class Movie extends Component {
                         style={{
                           maxWidth: "100%",
                           borderTopRightRadius: "8px",
-                          borderTopLeftRadius: "8px"
+                          borderTopLeftRadius: "8px",
                         }}
                       />
                     </Grid.Column>
@@ -76,39 +91,41 @@ class Movie extends Component {
                   <Card.Content extra>
                     <a>
                       <Icon name="user" />
-
-
-
-                      
                     </a>
                   </Card.Content>
                 </Card>
-                <Collapse
-                        bordered={false}
-                        expandIcon={({ isActive }) => <CaretRightOutlined rotate={isActive ? 90 : 0} />}
-                        className="site-collapse-custom-collapse"
-                      >
-                        <Panel header="Showtimes" key={index} className="site-collapse-custom-panel">
-                          <div className="showtime">
-                          {mov.showTimes.map((location) => (
-                              <Col>
-                              <p>{location.place}</p>
-                              {location.times.map((show) => (
-                              <li>
-                                <a href={show.link}>{show.time}</a>
-                                </li>
-                              ))}
-                              {/* 
-                              <Button
-                                onClick={this.onClick}
-                                href={"https://ksa.voxcinemas.com/" + mov.showtime}
-                              >
-                              </Button> */}
-                              </Col>
-                          ))}
-                          </div>
-                        </Panel>
-                      </Collapse>
+
+                <Button
+                  className="showtime-btn"
+                  id={index}
+                  type="primary"
+                  onClick={this.showModal}
+                >
+                  Show Times
+                </Button>
+                <Modal
+                  title="Showtimes"
+                  visible={this.state.isModalVisible}
+                  onCancel={this.handleCancel}
+                >
+                  <div className="showtime">
+                    <div className="vox-logo">
+                    <img src={vox} alt="logo"></img>
+                    </div>
+                    {mov.showTimes.map((location,index) => (
+                      <Col>
+                        <h2>{location.place}</h2>
+                        {location.times.map((show, index) => (
+                          <li>
+                            <Button className="showtime-btn" href={baseVoxUrl + show.link}>
+                              {show.time}
+                            </Button>
+                          </li>
+                        ))}
+                      </Col>
+                    ))}
+                  </div>
+                </Modal>
               </Col>
             ))}
           </Row>
