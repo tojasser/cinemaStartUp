@@ -1,8 +1,10 @@
 import React, { Component } from "react";
-import { Button, Col, Row, Select, Divider } from "antd";
+import { Button, Col, Row, Select, Divider, Modal } from "antd";
 import { Card, Grid, Icon, Image } from "semantic-ui-react";
 import axios from "axios";
-import logo from "./cinema.png"; import { Collapse } from 'antd';
+import logo from "./cinema.png";
+import vox from "./vox.png";
+import { Collapse } from 'antd';
 import { CaretRightOutlined } from '@ant-design/icons';
 
 const { Panel } = Collapse;
@@ -12,8 +14,29 @@ class Movie extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      visible: false,
       movie: []
     };
+  }
+
+  showModal = () => {
+    this.setState({
+      visible: true,
+    });
+  }
+  
+  handleCancel = (e) => {
+    console.log(e);
+    this.setState({
+      visible: false,
+    });
+  }
+
+  handleOk = (e) => {
+    console.log(e);
+    this.setState({
+      visible: false,
+    });
   }
 
   componentDidMount() {
@@ -27,6 +50,7 @@ class Movie extends Component {
   render() {
     console.log(this.state.movie);
     const movie = this.state.movie;
+    const baseLink = "https://ksa.voxcinemas.com"
 
     return (
       <div className="container">
@@ -79,36 +103,37 @@ class Movie extends Component {
 
 
 
-                      
+
                     </a>
                   </Card.Content>
                 </Card>
-                <Collapse
-                        bordered={false}
-                        expandIcon={({ isActive }) => <CaretRightOutlined rotate={isActive ? 90 : 0} />}
-                        className="site-collapse-custom-collapse"
-                      >
-                        <Panel header="Showtimes" key={index} className="site-collapse-custom-panel">
-                          <div className="showtime">
-                          {mov.showTimes.map((location) => (
-                              <Col>
-                              <p>{location.place}</p>
-                              {location.times.map((show) => (
-                              <li>
-                                <a href={show.link}>{show.time}</a>
-                                </li>
-                              ))}
-                              {/* 
+                <div>
+                  <Button type="primary" onClick={this.showModal}>SHOWTIME</Button>
+                  <Modal
+                    // title="Basic Modal"
+                    visible={this.state.visible}
+                    onCancel={this.handleCancel}
+                    footer={null}
+                  >
+                    <div className="showtime">
+                      <img src={vox} height="42" width="42"></img>
+                      {mov.showTimes.map((location) => (
+                        <Col>
+                          <p>{location.place}</p>
+                          {location.times.map((show) => (
+                              <a href={baseLink+show.link}>{show.time}</a>
+                          ))}
+                          {/* 
                               <Button
                                 onClick={this.onClick}
                                 href={"https://ksa.voxcinemas.com/" + mov.showtime}
                               >
                               </Button> */}
-                              </Col>
-                          ))}
-                          </div>
-                        </Panel>
-                      </Collapse>
+                        </Col>
+                      ))}
+                    </div>
+                  </Modal>
+                </div>
               </Col>
             ))}
           </Row>
