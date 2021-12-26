@@ -4,18 +4,27 @@ import { Card, Grid, Icon, Image } from "semantic-ui-react";
 import axios from "axios";
 import logo from "./cinema.png";
 import vox from "./vox.png";
+<<<<<<< HEAD
 import { Collapse } from 'antd';
 import { CaretRightOutlined } from '@ant-design/icons';
+=======
+import { Collapse } from "antd";
+import { CaretRightOutlined } from "@ant-design/icons";
+>>>>>>> 0516c6baf3b6f53195493088dedd1f041d05e398
 
 const { Panel } = Collapse;
-
 
 class Movie extends Component {
   constructor(props) {
     super(props);
     this.state = {
+<<<<<<< HEAD
       visible: false,
       movie: []
+=======
+      movie: [],
+      isModalVisible: false,
+>>>>>>> 0516c6baf3b6f53195493088dedd1f041d05e398
     };
   }
 
@@ -47,8 +56,19 @@ class Movie extends Component {
     });
   }
 
+  showModal = () => {
+    this.setState({
+      isModalVisible: true,
+    });
+  };
+
+  handleCancel = () => {
+    this.setState({
+      isModalVisible: false,
+    });
+  };
+
   render() {
-    console.log(this.state.movie);
     const movie = this.state.movie;
     const baseLink = "https://ksa.voxcinemas.com"
 
@@ -61,7 +81,7 @@ class Movie extends Component {
         <div className="rapper">
           <div className="select-city">
             <p>Choose City</p>
-            <Button>Riyadh</Button>
+            <Button className="selected">Riyadh</Button>
             <Button>Jeddah</Button>
             <Button>Dammam</Button>
             <Button>Qassim</Button>
@@ -74,6 +94,8 @@ class Movie extends Component {
               Find Movies
             </Button>
           </div>
+        </div>
+        <div className="rapper">
           <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
             {movie.map((mov, index) => (
               <Col className="gutter-row" span={6}>
@@ -85,7 +107,7 @@ class Movie extends Component {
                         style={{
                           maxWidth: "100%",
                           borderTopRightRadius: "8px",
-                          borderTopLeftRadius: "8px"
+                          borderTopLeftRadius: "8px",
                         }}
                       />
                     </Grid.Column>
@@ -100,6 +122,7 @@ class Movie extends Component {
                   <Card.Content extra>
                     <a>
                       <Icon name="user" />
+<<<<<<< HEAD
 
 
 
@@ -134,6 +157,43 @@ class Movie extends Component {
                     </div>
                   </Modal>
                 </div>
+=======
+                    </a>
+                  </Card.Content>
+                </Card>
+
+                <Button
+                  className="showtime-btn"
+                  id={index}
+                  type="primary"
+                  onClick={this.showModal}
+                >
+                  Show Times
+                </Button>
+                <Modal
+                  title="Showtimes"
+                  visible={this.state.isModalVisible}
+                  onCancel={this.handleCancel}
+                >
+                  <div className="showtime">
+                    <div className="vox-logo">
+                    <img src={vox} alt="logo"></img>
+                    </div>
+                    {mov.showTimes.map((location,index) => (
+                      <Col>
+                        <h2>{location.place}</h2>
+                        {location.times.map((show, index) => (
+                          <li>
+                            <Button className="showtime-btn" href={baseVoxUrl + show.link}>
+                              {show.time}
+                            </Button>
+                          </li>
+                        ))}
+                      </Col>
+                    ))}
+                  </div>
+                </Modal>
+>>>>>>> 0516c6baf3b6f53195493088dedd1f041d05e398
               </Col>
             ))}
           </Row>
