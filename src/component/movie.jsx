@@ -4,13 +4,8 @@ import { Card, Grid, Icon, Image } from "semantic-ui-react";
 import axios from "axios";
 import logo from "./cinema.png";
 import vox from "./vox.png";
-<<<<<<< HEAD
-import { Collapse } from 'antd';
-import { CaretRightOutlined } from '@ant-design/icons';
-=======
 import { Collapse } from "antd";
 import { CaretRightOutlined } from "@ant-design/icons";
->>>>>>> 0516c6baf3b6f53195493088dedd1f041d05e398
 
 const { Panel } = Collapse;
 
@@ -18,34 +13,9 @@ class Movie extends Component {
   constructor(props) {
     super(props);
     this.state = {
-<<<<<<< HEAD
-      visible: false,
-      movie: []
-=======
       movie: [],
       isModalVisible: false,
->>>>>>> 0516c6baf3b6f53195493088dedd1f041d05e398
     };
-  }
-
-  showModal = () => {
-    this.setState({
-      visible: true,
-    });
-  }
-  
-  handleCancel = (e) => {
-    console.log(e);
-    this.setState({
-      visible: false,
-    });
-  }
-
-  handleOk = (e) => {
-    console.log(e);
-    this.setState({
-      visible: false,
-    });
   }
 
   componentDidMount() {
@@ -70,8 +40,7 @@ class Movie extends Component {
 
   render() {
     const movie = this.state.movie;
-    const baseLink = "https://ksa.voxcinemas.com"
-
+    const baseVoxUrl = "https://ksa.voxcinemas.com";
     return (
       <div className="container">
         <div className="logo">
@@ -122,42 +91,6 @@ class Movie extends Component {
                   <Card.Content extra>
                     <a>
                       <Icon name="user" />
-<<<<<<< HEAD
-
-
-
-
-                    </a>
-                  </Card.Content>
-                </Card>
-                <div>
-                  <Button type="primary" onClick={this.showModal}>SHOWTIME</Button>
-                  <Modal
-                    // title="Basic Modal"
-                    visible={this.state.visible}
-                    onCancel={this.handleCancel}
-                    footer={null}
-                  >
-                    <div className="showtime">
-                      <img src={vox} height="42" width="42"></img>
-                      {mov.showTimes.map((location) => (
-                        <Col>
-                          <p>{location.place}</p>
-                          {location.times.map((show) => (
-                              <a href={baseLink+show.link}>{show.time}</a>
-                          ))}
-                          {/* 
-                              <Button
-                                onClick={this.onClick}
-                                href={"https://ksa.voxcinemas.com/" + mov.showtime}
-                              >
-                              </Button> */}
-                        </Col>
-                      ))}
-                    </div>
-                  </Modal>
-                </div>
-=======
                     </a>
                   </Card.Content>
                 </Card>
@@ -193,7 +126,6 @@ class Movie extends Component {
                     ))}
                   </div>
                 </Modal>
->>>>>>> 0516c6baf3b6f53195493088dedd1f041d05e398
               </Col>
             ))}
           </Row>
