@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import { Button, Col, Row, Select, Divider, Modal } from "antd";
+import { Button, Col, Row, Select, Modal } from "antd";
 import { Card, Grid, Icon, Image } from "semantic-ui-react";
 import axios from "axios";
 import logo from "./cinema.png";
 import vox from "./vox.png";
 import { Collapse } from "antd";
-import { CaretRightOutlined } from "@ant-design/icons";
+//import { CaretRightOutlined } from "@ant-design/icons";
 
-const { Panel } = Collapse;
+//const { Panel } = Collapse;
 
 class Movie extends Component {
   constructor(props) {
