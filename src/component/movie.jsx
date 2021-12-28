@@ -1,13 +1,8 @@
 import React, { Component } from "react";
-import { Button, Col, Row, Select, Divider, Modal } from "antd";
-import { Card, Grid, Icon, Image } from "semantic-ui-react";
 import axios from "axios";
 import logo from "./cinema.png";
 import vox from "./vox.png";
-import { Collapse } from "antd";
-import { CaretRightOutlined } from "@ant-design/icons";
-
-const { Panel } = Collapse;
+import { Button } from "bootstrap";
 
 class Movie extends Component {
   constructor(props) {
@@ -54,21 +49,21 @@ class Movie extends Component {
             <Button>Jeddah</Button>
             <Button>Dammam</Button>
             <Button>Qassim</Button>
-            <Select
+            {/* <Select
               showSearch
               style={{ width: 200 }}
               placeholder="Another city..."
-            />
+            /> */}
             <Button block className="find">
               Find Movies
             </Button>
           </div>
         </div>
         <div className="rapper">
-          <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
+          <div className="row">
             {movie.map((mov, index) => (
-              <Col className="gutter-row" span={6}>
-                <Card>
+              <div className="col-6 gutter-row">
+                {/* <Card>
                   <Grid relaxed columns={4}>
                     <Grid.Column>
                       <Image
@@ -125,10 +120,10 @@ class Movie extends Component {
                       </Col>
                     ))}
                   </div>
-                </Modal>
-              </Col>
+                </Modal> */}
+              </div>
             ))}
-          </Row>
+          </div>
         </div>
       </div>
     );
