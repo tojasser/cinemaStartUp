@@ -4,7 +4,7 @@ import { Card, Grid, Icon, Image } from "semantic-ui-react";
 import axios from "axios";
 import logo from "./cinema.png";
 import vox from "./vox.png";
-import { Collapse } from "antd";
+//import { Collapse } from "antd";
 //import { CaretRightOutlined } from "@ant-design/icons";
 
 //const { Panel } = Collapse;
