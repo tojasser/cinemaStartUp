@@ -117,7 +117,7 @@ class Movie extends Component {
                         <h2>{location.place}</h2>
                         {location.times.map((show, index) => (
                           <li>
-                            <Button className="showtime-btn" href={"https://ksa.voxcinemas.com" + show.link}>
+                            <Button className="showtime-btn" href={baseVoxUrl + show.link}>
                               {show.time}
                             </Button>
                           </li>
