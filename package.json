@@ -24,7 +24,7 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "server": "server.js",
+    "server": "node server.js",
     "all": "npm run build & npm run server"
   },
   "eslintConfig": {
