@@ -17,13 +17,16 @@ class Movie extends Component {
       isModalVisible: false,
     };
   }
+  componentDidMount(){
 
-  componentDidMount() {
-    axios.get(`http://localhost:5000/movies`).then((response) => {
-      this.setState({
-        movie: response.data,
-      });
-    });
+      fetch(`/.netlify/functions/server`).then(res => this.setState({
+        movie: res.data,
+      }))
+      
+
+    
+    
+    // axios.get(`/.netlify/functions/server`)
   }
 
   showModal = () => {

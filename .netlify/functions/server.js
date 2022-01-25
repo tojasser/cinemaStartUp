@@ -1,20 +1,42 @@
-const express = require('express');
-var cors = require('cors')
-const app = express();
+// const express = require('express');
+// var cors = require('cors')
+// const app = express();
 const axios = require('axios')
-const cheerio = require('cheerio')
-const port = process.env.PORT || 5000;
-app.use(cors())
+const cheerio = require('cheerio');
+const { json } = require('express/lib/response');
+// const port = process.env.PORT || 5000;
+// app.use(cors())
+
+exports.handler = async ( context) =>{
+
+
+    try{
+
+        let movie = await moviesAndShowtimes();
+        return{
+            statusCode: 200,
+            body: movie
+        }
+
+    }catch(error) {
+        return{
+            statusCode: 500,
+            body: JSON.stringify(error)
+        }
+
+    }
+};
+
 
 
 // This displays message that the server running and listening to specified port
-app.listen(port, () => console.log(`Listening on port ${port}`));
+// app.listen(port, () => console.log(`Listening on port ${port}`));
 
-// create a GET Moives route
-app.get('/movies', async (req, res) => {
-    let movie = await moviesAndShowtimes();
-    res.end(movie);
-});
+// // create a GET Moives route
+// app.get('/movies', async (req, res) => {
+//     let movie = await moviesAndShowtimes();
+//     res.end(movie);
+// });
 
 
 // const getMovies = async () => {
