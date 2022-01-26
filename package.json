@@ -24,7 +24,7 @@
   "scripts": {
     "api:serve": "netlify-lambda serve .netlify/functions",
     "start": "craco start",
-    "build": "netlify-lambda build .netlify/functions && react-scripts build",
+    "build": "netlify-lambda build .netlify/functions && craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
   },
