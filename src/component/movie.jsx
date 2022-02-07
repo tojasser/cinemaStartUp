@@ -109,8 +109,8 @@ class Movie extends Component {
         </div>
         {this.state.modalIndex > -1 &&
           <Modal
-            title="Showtimes"
-            visible={this.state.modalIndex > -1}
+          title={movie[this.state.modalIndex].name}
+          visible={this.state.modalIndex > -1}
             onCancel={this.handleCancel}
 
           >
