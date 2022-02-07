@@ -14,7 +14,7 @@ class Movie extends Component {
     super(props);
     this.state = {
       movie: [],
-      isModalVisible: false,
+      modalIndex: -1,
     };
   }
 
@@ -26,15 +26,15 @@ class Movie extends Component {
 
 
 
-  showModal = () => {
+  showModal = (index) => {
     this.setState({
-      isModalVisible: true,
+      modalIndex: index,
     });
   };
 
   handleCancel = () => {
     this.setState({
-      isModalVisible: false,
+      modalIndex: -1,
     });
   };
 
@@ -99,37 +99,42 @@ class Movie extends Component {
                   className="showtime-btn"
                   id={index}
                   type="primary"
-                  onClick={this.showModal}
+                  onClick={() => this.showModal(index)}
                 >
                   Show Times
                 </Button>
-                <Modal
-                  title="Showtimes"
-                  visible={this.state.isModalVisible}
-                  onCancel={this.handleCancel}
-                >
-                  <div className="showtime">
-                    <div className="vox-logo">
-                    <img src={vox} alt="logo"></img>
-                    </div>
-                    {mov.showTimes.map((location,index) => (
-                      <Col>
-                        <h2>{location.place}</h2>
-                        {location.times.map((show, index) => (
-                          <li>
-                            <Button className="showtime-btn" href={baseVoxUrl + show.link}>
-                              {show.time}
-                            </Button>
-                          </li>
-                        ))}
-                      </Col>
-                    ))}
-                  </div>
-                </Modal>
               </Col>
             ))}
           </Row>
         </div>
+        {this.state.modalIndex > -1 &&
+          <Modal
+            title="Showtimes"
+            visible={this.state.modalIndex > -1}
+            onCancel={this.handleCancel}
+
+          >
+            <div className="showtime">
+              <div className="vox-logo">
+                <img src={vox} alt="logo"></img>
+              </div>
+              {movie[this.state.modalIndex].showTimes.map((location, index) => (
+                <Col>
+                  <h2>{location.place}</h2>
+                  <Row>
+                  {location.times.map((show, index) => (
+                        <Col  span={6}>
+                        <Button className="showtime-btn" href={baseVoxUrl + show.link}>
+                          {show.time}
+                        </Button>
+                        </Col>
+                  ))}
+                  </Row>
+                </Col>
+              ))}
+            </div>
+          </Modal>
+        }
       </div>
     );
   }
